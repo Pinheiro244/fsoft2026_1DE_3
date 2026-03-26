@@ -11,3 +11,15 @@ void increment();
 void decrement();
 void printCounter();
 };
+
+class CounterUi
+{
+private:
+Counter contador;
+public:
+CounterUi();
+int readOption();
+void action(int option);
+void run();
+bool exit();
+};
