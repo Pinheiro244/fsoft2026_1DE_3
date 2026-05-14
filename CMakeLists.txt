@@ -12,6 +12,12 @@ set(SOURCE_FILES
         main.cpp
         ${PROJECT_SOURCES_DIR}/factorial.cpp
         ${PROJECT_SOURCES_DIR}/pl3.cpp
+        heathers/controllers/controller.h
+        heathers/dto/DateDTO.h
+        heathers/dto/MatriculaINDTO.h
+        heathers/dto/MatriculaOUTDTO.h
+        mock/MockData.cpp
+        mock/MockData.h
 )
 
 add_executable(FirstProject ${SOURCE_FILES})
