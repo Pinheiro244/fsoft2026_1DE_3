@@ -12,12 +12,24 @@ set(SOURCE_FILES
         main.cpp
         ${PROJECT_SOURCES_DIR}/factorial.cpp
         ${PROJECT_SOURCES_DIR}/pl3.cpp
-        heathers/controllers/controller.h
-        heathers/dto/DateDTO.h
-        heathers/dto/MatriculaINDTO.h
-        heathers/dto/MatriculaOUTDTO.h
+        headers/controllers/controller.h
+        headers/dto/DateDTO.h
+        headers/dto/MatriculaINDTO.h
+        headers/dto/MatriculaOUTDTO.h
         mock/MockData.cpp
         mock/MockData.h
+        headers/model/studentcontainer.h
+        Sources/model/studentcontainer.cpp
+        headers/exceptions/ApplicationException.h
+        Sources/exceptions/ApplicationException.cpp
+        headers/exceptions/InvalidDataException.h
+        Sources/exceptions/InvalidDataException.cpp
+        headers/exceptions/DuplicatedDataException.h
+        Sources/exceptions/DuplicatedDataException.cpp
+        headers/exceptions/NotFoundException.h
+        Sources/exceptions/NotFoundException.cpp
+        headers/exceptions/DataConsistencyException.h
+        Sources/exceptions/DataConsistencyException.h.cpp
 )
 
 add_executable(FirstProject ${SOURCE_FILES})
