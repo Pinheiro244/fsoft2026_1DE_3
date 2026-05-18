@@ -1,9 +1,5 @@
 #include "DuplicatedDataException.h"
 
-DuplicatedDataException::DuplicatedDataException(
-    const string& message
-) : ApplicationException(message) {
+DuplicatedDataException::DuplicatedDataException(const string& message)
+    : ApplicationException("Duplicated data. " + message) {
 }
-
-
-

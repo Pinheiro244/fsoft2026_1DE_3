@@ -1,6 +1,6 @@
 #include "Person.h"
 
-#include <stdexcept>
+#include "InvalidDataException.h"
 
 Person::Person(
     int id,
@@ -52,7 +52,7 @@ string Person::getEmail() const {
 void Person::setName(const string& name) {
 
     if (!isNameValid(name)) {
-        throw invalid_argument("Invalid name.");
+        throw InvalidDataException("Invalid name.");
     }
 
     this->name = name;
@@ -61,7 +61,7 @@ void Person::setName(const string& name) {
 void Person::setPhoneNumber(const string& phoneNumber) {
 
     if (!isPhoneNumberValid(phoneNumber)) {
-        throw invalid_argument("Invalid phone number.");
+        throw InvalidDataException("Invalid phone number.");
     }
 
     this->phoneNumber = phoneNumber;
@@ -70,7 +70,7 @@ void Person::setPhoneNumber(const string& phoneNumber) {
 void Person::setEmail(const string& email) {
 
     if (!isEmailValid(email)) {
-        throw invalid_argument("Invalid email.");
+        throw InvalidDataException("Invalid email.");
     }
 
     this->email = email;
@@ -83,4 +83,3 @@ bool Person::operator==(const Person& other) const {
 bool Person::operator==(int id) const {
     return this->id == id;
 }
-.

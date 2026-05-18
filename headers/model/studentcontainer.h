@@ -1,22 +1,18 @@
-//
-// Created by 35196 on 17/05/2026.
-//
-
 #ifndef STUDENTCONTAINER_H
 #define STUDENTCONTAINER_H
 
 #include <list>
-
-#include "Student.h"
+#include <string>
+#include "student.h"
 
 using namespace std;
 
 class StudentContainer {
 
 private:
-    list<Student> students;
+    list<Student*> students;
 
-    Student search(int id) const;
+    Student* search(int id) const;
 
 public:
     StudentContainer() = default;
@@ -34,9 +30,7 @@ public:
 
     list<Student*> getAll() const;
 
-    void remove(int id);
+    Student* remove(int id);
 };
 
 #endif
-
-#endif //FSOFT2026_1DE_3_STUDENTCONTAINER_H

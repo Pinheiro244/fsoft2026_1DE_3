@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2025.3.3\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\leand\CLionProjects\FirstProject
+CMAKE_SOURCE_DIR = C:\Users\35196\CLionProjects\fsoft2026_1DE_3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\leand\CLionProjects\FirstProject\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,17 +86,10 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\leand\CLionProjects\FirstProject\cmake-build-debug\CMakeFiles C:\Users\leand\CLionProjects\FirstProject\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\leand\CLionProjects\FirstProject\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles 0
 .PHONY : all
-
-# The main codegen target
-codegen: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\leand\CLionProjects\FirstProject\cmake-build-debug\CMakeFiles C:\Users\leand\CLionProjects\FirstProject\cmake-build-debug\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 codegen
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\leand\CLionProjects\FirstProject\cmake-build-debug\CMakeFiles 0
-.PHONY : codegen
 
 # The main clean target
 clean:
@@ -123,24 +116,672 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named FirstProject
+# Target rules for targets named fsoft2026_1DE_3
 
 # Build rule for target.
-FirstProject: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FirstProject
-.PHONY : FirstProject
+fsoft2026_1DE_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fsoft2026_1DE_3
+.PHONY : fsoft2026_1DE_3
 
 # fast build rule for target.
-FirstProject/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstProject.dir\build.make CMakeFiles/FirstProject.dir/build
-.PHONY : FirstProject/fast
+fsoft2026_1DE_3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/build
+.PHONY : fsoft2026_1DE_3/fast
+
+Sources/controllers/controllers.obj: Sources/controllers/controllers.cpp.obj
+.PHONY : Sources/controllers/controllers.obj
+
+# target to build an object file
+Sources/controllers/controllers.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/controllers/controllers.cpp.obj
+.PHONY : Sources/controllers/controllers.cpp.obj
+
+Sources/controllers/controllers.i: Sources/controllers/controllers.cpp.i
+.PHONY : Sources/controllers/controllers.i
+
+# target to preprocess a source file
+Sources/controllers/controllers.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/controllers/controllers.cpp.i
+.PHONY : Sources/controllers/controllers.cpp.i
+
+Sources/controllers/controllers.s: Sources/controllers/controllers.cpp.s
+.PHONY : Sources/controllers/controllers.s
+
+# target to generate assembly for a file
+Sources/controllers/controllers.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/controllers/controllers.cpp.s
+.PHONY : Sources/controllers/controllers.cpp.s
+
+Sources/exceptions/ApplicationException.obj: Sources/exceptions/ApplicationException.cpp.obj
+.PHONY : Sources/exceptions/ApplicationException.obj
+
+# target to build an object file
+Sources/exceptions/ApplicationException.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.obj
+.PHONY : Sources/exceptions/ApplicationException.cpp.obj
+
+Sources/exceptions/ApplicationException.i: Sources/exceptions/ApplicationException.cpp.i
+.PHONY : Sources/exceptions/ApplicationException.i
+
+# target to preprocess a source file
+Sources/exceptions/ApplicationException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.i
+.PHONY : Sources/exceptions/ApplicationException.cpp.i
+
+Sources/exceptions/ApplicationException.s: Sources/exceptions/ApplicationException.cpp.s
+.PHONY : Sources/exceptions/ApplicationException.s
+
+# target to generate assembly for a file
+Sources/exceptions/ApplicationException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.s
+.PHONY : Sources/exceptions/ApplicationException.cpp.s
+
+Sources/exceptions/DataConsistencyException.obj: Sources/exceptions/DataConsistencyException.cpp.obj
+.PHONY : Sources/exceptions/DataConsistencyException.obj
+
+# target to build an object file
+Sources/exceptions/DataConsistencyException.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.obj
+.PHONY : Sources/exceptions/DataConsistencyException.cpp.obj
+
+Sources/exceptions/DataConsistencyException.i: Sources/exceptions/DataConsistencyException.cpp.i
+.PHONY : Sources/exceptions/DataConsistencyException.i
+
+# target to preprocess a source file
+Sources/exceptions/DataConsistencyException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.i
+.PHONY : Sources/exceptions/DataConsistencyException.cpp.i
+
+Sources/exceptions/DataConsistencyException.s: Sources/exceptions/DataConsistencyException.cpp.s
+.PHONY : Sources/exceptions/DataConsistencyException.s
+
+# target to generate assembly for a file
+Sources/exceptions/DataConsistencyException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.s
+.PHONY : Sources/exceptions/DataConsistencyException.cpp.s
+
+Sources/exceptions/DuplicatedDataException.obj: Sources/exceptions/DuplicatedDataException.cpp.obj
+.PHONY : Sources/exceptions/DuplicatedDataException.obj
+
+# target to build an object file
+Sources/exceptions/DuplicatedDataException.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.obj
+.PHONY : Sources/exceptions/DuplicatedDataException.cpp.obj
+
+Sources/exceptions/DuplicatedDataException.i: Sources/exceptions/DuplicatedDataException.cpp.i
+.PHONY : Sources/exceptions/DuplicatedDataException.i
+
+# target to preprocess a source file
+Sources/exceptions/DuplicatedDataException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.i
+.PHONY : Sources/exceptions/DuplicatedDataException.cpp.i
+
+Sources/exceptions/DuplicatedDataException.s: Sources/exceptions/DuplicatedDataException.cpp.s
+.PHONY : Sources/exceptions/DuplicatedDataException.s
+
+# target to generate assembly for a file
+Sources/exceptions/DuplicatedDataException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.s
+.PHONY : Sources/exceptions/DuplicatedDataException.cpp.s
+
+Sources/exceptions/InvalidDataException.obj: Sources/exceptions/InvalidDataException.cpp.obj
+.PHONY : Sources/exceptions/InvalidDataException.obj
+
+# target to build an object file
+Sources/exceptions/InvalidDataException.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.obj
+.PHONY : Sources/exceptions/InvalidDataException.cpp.obj
+
+Sources/exceptions/InvalidDataException.i: Sources/exceptions/InvalidDataException.cpp.i
+.PHONY : Sources/exceptions/InvalidDataException.i
+
+# target to preprocess a source file
+Sources/exceptions/InvalidDataException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.i
+.PHONY : Sources/exceptions/InvalidDataException.cpp.i
+
+Sources/exceptions/InvalidDataException.s: Sources/exceptions/InvalidDataException.cpp.s
+.PHONY : Sources/exceptions/InvalidDataException.s
+
+# target to generate assembly for a file
+Sources/exceptions/InvalidDataException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.s
+.PHONY : Sources/exceptions/InvalidDataException.cpp.s
+
+Sources/exceptions/NoDataException.obj: Sources/exceptions/NoDataException.cpp.obj
+.PHONY : Sources/exceptions/NoDataException.obj
+
+# target to build an object file
+Sources/exceptions/NoDataException.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NoDataException.cpp.obj
+.PHONY : Sources/exceptions/NoDataException.cpp.obj
+
+Sources/exceptions/NoDataException.i: Sources/exceptions/NoDataException.cpp.i
+.PHONY : Sources/exceptions/NoDataException.i
+
+# target to preprocess a source file
+Sources/exceptions/NoDataException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NoDataException.cpp.i
+.PHONY : Sources/exceptions/NoDataException.cpp.i
+
+Sources/exceptions/NoDataException.s: Sources/exceptions/NoDataException.cpp.s
+.PHONY : Sources/exceptions/NoDataException.s
+
+# target to generate assembly for a file
+Sources/exceptions/NoDataException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NoDataException.cpp.s
+.PHONY : Sources/exceptions/NoDataException.cpp.s
+
+Sources/exceptions/NotFoundException.obj: Sources/exceptions/NotFoundException.cpp.obj
+.PHONY : Sources/exceptions/NotFoundException.obj
+
+# target to build an object file
+Sources/exceptions/NotFoundException.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.obj
+.PHONY : Sources/exceptions/NotFoundException.cpp.obj
+
+Sources/exceptions/NotFoundException.i: Sources/exceptions/NotFoundException.cpp.i
+.PHONY : Sources/exceptions/NotFoundException.i
+
+# target to preprocess a source file
+Sources/exceptions/NotFoundException.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.i
+.PHONY : Sources/exceptions/NotFoundException.cpp.i
+
+Sources/exceptions/NotFoundException.s: Sources/exceptions/NotFoundException.cpp.s
+.PHONY : Sources/exceptions/NotFoundException.s
+
+# target to generate assembly for a file
+Sources/exceptions/NotFoundException.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.s
+.PHONY : Sources/exceptions/NotFoundException.cpp.s
+
+Sources/mappers/MatriculaMapper.obj: Sources/mappers/MatriculaMapper.cpp.obj
+.PHONY : Sources/mappers/MatriculaMapper.obj
+
+# target to build an object file
+Sources/mappers/MatriculaMapper.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.obj
+.PHONY : Sources/mappers/MatriculaMapper.cpp.obj
+
+Sources/mappers/MatriculaMapper.i: Sources/mappers/MatriculaMapper.cpp.i
+.PHONY : Sources/mappers/MatriculaMapper.i
+
+# target to preprocess a source file
+Sources/mappers/MatriculaMapper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.i
+.PHONY : Sources/mappers/MatriculaMapper.cpp.i
+
+Sources/mappers/MatriculaMapper.s: Sources/mappers/MatriculaMapper.cpp.s
+.PHONY : Sources/mappers/MatriculaMapper.s
+
+# target to generate assembly for a file
+Sources/mappers/MatriculaMapper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.s
+.PHONY : Sources/mappers/MatriculaMapper.cpp.s
+
+Sources/mappers/StudentMapper.obj: Sources/mappers/StudentMapper.cpp.obj
+.PHONY : Sources/mappers/StudentMapper.obj
+
+# target to build an object file
+Sources/mappers/StudentMapper.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.obj
+.PHONY : Sources/mappers/StudentMapper.cpp.obj
+
+Sources/mappers/StudentMapper.i: Sources/mappers/StudentMapper.cpp.i
+.PHONY : Sources/mappers/StudentMapper.i
+
+# target to preprocess a source file
+Sources/mappers/StudentMapper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.i
+.PHONY : Sources/mappers/StudentMapper.cpp.i
+
+Sources/mappers/StudentMapper.s: Sources/mappers/StudentMapper.cpp.s
+.PHONY : Sources/mappers/StudentMapper.s
+
+# target to generate assembly for a file
+Sources/mappers/StudentMapper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.s
+.PHONY : Sources/mappers/StudentMapper.cpp.s
+
+Sources/mappers/TrainingPlanMapper.obj: Sources/mappers/TrainingPlanMapper.cpp.obj
+.PHONY : Sources/mappers/TrainingPlanMapper.obj
+
+# target to build an object file
+Sources/mappers/TrainingPlanMapper.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.obj
+.PHONY : Sources/mappers/TrainingPlanMapper.cpp.obj
+
+Sources/mappers/TrainingPlanMapper.i: Sources/mappers/TrainingPlanMapper.cpp.i
+.PHONY : Sources/mappers/TrainingPlanMapper.i
+
+# target to preprocess a source file
+Sources/mappers/TrainingPlanMapper.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.i
+.PHONY : Sources/mappers/TrainingPlanMapper.cpp.i
+
+Sources/mappers/TrainingPlanMapper.s: Sources/mappers/TrainingPlanMapper.cpp.s
+.PHONY : Sources/mappers/TrainingPlanMapper.s
+
+# target to generate assembly for a file
+Sources/mappers/TrainingPlanMapper.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.s
+.PHONY : Sources/mappers/TrainingPlanMapper.cpp.s
+
+Sources/model/Matricula.obj: Sources/model/Matricula.cpp.obj
+.PHONY : Sources/model/Matricula.obj
+
+# target to build an object file
+Sources/model/Matricula.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/Matricula.cpp.obj
+.PHONY : Sources/model/Matricula.cpp.obj
+
+Sources/model/Matricula.i: Sources/model/Matricula.cpp.i
+.PHONY : Sources/model/Matricula.i
+
+# target to preprocess a source file
+Sources/model/Matricula.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/Matricula.cpp.i
+.PHONY : Sources/model/Matricula.cpp.i
+
+Sources/model/Matricula.s: Sources/model/Matricula.cpp.s
+.PHONY : Sources/model/Matricula.s
+
+# target to generate assembly for a file
+Sources/model/Matricula.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/Matricula.cpp.s
+.PHONY : Sources/model/Matricula.cpp.s
+
+Sources/model/MatriculaContainer.obj: Sources/model/MatriculaContainer.cpp.obj
+.PHONY : Sources/model/MatriculaContainer.obj
+
+# target to build an object file
+Sources/model/MatriculaContainer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/MatriculaContainer.cpp.obj
+.PHONY : Sources/model/MatriculaContainer.cpp.obj
+
+Sources/model/MatriculaContainer.i: Sources/model/MatriculaContainer.cpp.i
+.PHONY : Sources/model/MatriculaContainer.i
+
+# target to preprocess a source file
+Sources/model/MatriculaContainer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/MatriculaContainer.cpp.i
+.PHONY : Sources/model/MatriculaContainer.cpp.i
+
+Sources/model/MatriculaContainer.s: Sources/model/MatriculaContainer.cpp.s
+.PHONY : Sources/model/MatriculaContainer.s
+
+# target to generate assembly for a file
+Sources/model/MatriculaContainer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/MatriculaContainer.cpp.s
+.PHONY : Sources/model/MatriculaContainer.cpp.s
+
+Sources/model/person.obj: Sources/model/person.cpp.obj
+.PHONY : Sources/model/person.obj
+
+# target to build an object file
+Sources/model/person.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/person.cpp.obj
+.PHONY : Sources/model/person.cpp.obj
+
+Sources/model/person.i: Sources/model/person.cpp.i
+.PHONY : Sources/model/person.i
+
+# target to preprocess a source file
+Sources/model/person.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/person.cpp.i
+.PHONY : Sources/model/person.cpp.i
+
+Sources/model/person.s: Sources/model/person.cpp.s
+.PHONY : Sources/model/person.s
+
+# target to generate assembly for a file
+Sources/model/person.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/person.cpp.s
+.PHONY : Sources/model/person.cpp.s
+
+Sources/model/school.obj: Sources/model/school.cpp.obj
+.PHONY : Sources/model/school.obj
+
+# target to build an object file
+Sources/model/school.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/school.cpp.obj
+.PHONY : Sources/model/school.cpp.obj
+
+Sources/model/school.i: Sources/model/school.cpp.i
+.PHONY : Sources/model/school.i
+
+# target to preprocess a source file
+Sources/model/school.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/school.cpp.i
+.PHONY : Sources/model/school.cpp.i
+
+Sources/model/school.s: Sources/model/school.cpp.s
+.PHONY : Sources/model/school.s
+
+# target to generate assembly for a file
+Sources/model/school.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/school.cpp.s
+.PHONY : Sources/model/school.cpp.s
+
+Sources/model/student.obj: Sources/model/student.cpp.obj
+.PHONY : Sources/model/student.obj
+
+# target to build an object file
+Sources/model/student.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/student.cpp.obj
+.PHONY : Sources/model/student.cpp.obj
+
+Sources/model/student.i: Sources/model/student.cpp.i
+.PHONY : Sources/model/student.i
+
+# target to preprocess a source file
+Sources/model/student.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/student.cpp.i
+.PHONY : Sources/model/student.cpp.i
+
+Sources/model/student.s: Sources/model/student.cpp.s
+.PHONY : Sources/model/student.s
+
+# target to generate assembly for a file
+Sources/model/student.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/student.cpp.s
+.PHONY : Sources/model/student.cpp.s
+
+Sources/model/studentcontainer.obj: Sources/model/studentcontainer.cpp.obj
+.PHONY : Sources/model/studentcontainer.obj
+
+# target to build an object file
+Sources/model/studentcontainer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/studentcontainer.cpp.obj
+.PHONY : Sources/model/studentcontainer.cpp.obj
+
+Sources/model/studentcontainer.i: Sources/model/studentcontainer.cpp.i
+.PHONY : Sources/model/studentcontainer.i
+
+# target to preprocess a source file
+Sources/model/studentcontainer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/studentcontainer.cpp.i
+.PHONY : Sources/model/studentcontainer.cpp.i
+
+Sources/model/studentcontainer.s: Sources/model/studentcontainer.cpp.s
+.PHONY : Sources/model/studentcontainer.s
+
+# target to generate assembly for a file
+Sources/model/studentcontainer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/studentcontainer.cpp.s
+.PHONY : Sources/model/studentcontainer.cpp.s
+
+Sources/model/trainingplan.obj: Sources/model/trainingplan.cpp.obj
+.PHONY : Sources/model/trainingplan.obj
+
+# target to build an object file
+Sources/model/trainingplan.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplan.cpp.obj
+.PHONY : Sources/model/trainingplan.cpp.obj
+
+Sources/model/trainingplan.i: Sources/model/trainingplan.cpp.i
+.PHONY : Sources/model/trainingplan.i
+
+# target to preprocess a source file
+Sources/model/trainingplan.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplan.cpp.i
+.PHONY : Sources/model/trainingplan.cpp.i
+
+Sources/model/trainingplan.s: Sources/model/trainingplan.cpp.s
+.PHONY : Sources/model/trainingplan.s
+
+# target to generate assembly for a file
+Sources/model/trainingplan.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplan.cpp.s
+.PHONY : Sources/model/trainingplan.cpp.s
+
+Sources/model/trainingplancontainer.obj: Sources/model/trainingplancontainer.cpp.obj
+.PHONY : Sources/model/trainingplancontainer.obj
+
+# target to build an object file
+Sources/model/trainingplancontainer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplancontainer.cpp.obj
+.PHONY : Sources/model/trainingplancontainer.cpp.obj
+
+Sources/model/trainingplancontainer.i: Sources/model/trainingplancontainer.cpp.i
+.PHONY : Sources/model/trainingplancontainer.i
+
+# target to preprocess a source file
+Sources/model/trainingplancontainer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplancontainer.cpp.i
+.PHONY : Sources/model/trainingplancontainer.cpp.i
+
+Sources/model/trainingplancontainer.s: Sources/model/trainingplancontainer.cpp.s
+.PHONY : Sources/model/trainingplancontainer.s
+
+# target to generate assembly for a file
+Sources/model/trainingplancontainer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplancontainer.cpp.s
+.PHONY : Sources/model/trainingplancontainer.cpp.s
+
+Sources/repo/SchoolMemoryRepository.obj: Sources/repo/SchoolMemoryRepository.cpp.obj
+.PHONY : Sources/repo/SchoolMemoryRepository.obj
+
+# target to build an object file
+Sources/repo/SchoolMemoryRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/repo/SchoolMemoryRepository.cpp.obj
+.PHONY : Sources/repo/SchoolMemoryRepository.cpp.obj
+
+Sources/repo/SchoolMemoryRepository.i: Sources/repo/SchoolMemoryRepository.cpp.i
+.PHONY : Sources/repo/SchoolMemoryRepository.i
+
+# target to preprocess a source file
+Sources/repo/SchoolMemoryRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/repo/SchoolMemoryRepository.cpp.i
+.PHONY : Sources/repo/SchoolMemoryRepository.cpp.i
+
+Sources/repo/SchoolMemoryRepository.s: Sources/repo/SchoolMemoryRepository.cpp.s
+.PHONY : Sources/repo/SchoolMemoryRepository.s
+
+# target to generate assembly for a file
+Sources/repo/SchoolMemoryRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/repo/SchoolMemoryRepository.cpp.s
+.PHONY : Sources/repo/SchoolMemoryRepository.cpp.s
+
+Sources/service/MatriculaService.obj: Sources/service/MatriculaService.cpp.obj
+.PHONY : Sources/service/MatriculaService.obj
+
+# target to build an object file
+Sources/service/MatriculaService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/MatriculaService.cpp.obj
+.PHONY : Sources/service/MatriculaService.cpp.obj
+
+Sources/service/MatriculaService.i: Sources/service/MatriculaService.cpp.i
+.PHONY : Sources/service/MatriculaService.i
+
+# target to preprocess a source file
+Sources/service/MatriculaService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/MatriculaService.cpp.i
+.PHONY : Sources/service/MatriculaService.cpp.i
+
+Sources/service/MatriculaService.s: Sources/service/MatriculaService.cpp.s
+.PHONY : Sources/service/MatriculaService.s
+
+# target to generate assembly for a file
+Sources/service/MatriculaService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/MatriculaService.cpp.s
+.PHONY : Sources/service/MatriculaService.cpp.s
+
+Sources/service/StudentService.obj: Sources/service/StudentService.cpp.obj
+.PHONY : Sources/service/StudentService.obj
+
+# target to build an object file
+Sources/service/StudentService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/StudentService.cpp.obj
+.PHONY : Sources/service/StudentService.cpp.obj
+
+Sources/service/StudentService.i: Sources/service/StudentService.cpp.i
+.PHONY : Sources/service/StudentService.i
+
+# target to preprocess a source file
+Sources/service/StudentService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/StudentService.cpp.i
+.PHONY : Sources/service/StudentService.cpp.i
+
+Sources/service/StudentService.s: Sources/service/StudentService.cpp.s
+.PHONY : Sources/service/StudentService.s
+
+# target to generate assembly for a file
+Sources/service/StudentService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/StudentService.cpp.s
+.PHONY : Sources/service/StudentService.cpp.s
+
+Sources/service/TrainingPlanService.obj: Sources/service/TrainingPlanService.cpp.obj
+.PHONY : Sources/service/TrainingPlanService.obj
+
+# target to build an object file
+Sources/service/TrainingPlanService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/TrainingPlanService.cpp.obj
+.PHONY : Sources/service/TrainingPlanService.cpp.obj
+
+Sources/service/TrainingPlanService.i: Sources/service/TrainingPlanService.cpp.i
+.PHONY : Sources/service/TrainingPlanService.i
+
+# target to preprocess a source file
+Sources/service/TrainingPlanService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/TrainingPlanService.cpp.i
+.PHONY : Sources/service/TrainingPlanService.cpp.i
+
+Sources/service/TrainingPlanService.s: Sources/service/TrainingPlanService.cpp.s
+.PHONY : Sources/service/TrainingPlanService.s
+
+# target to generate assembly for a file
+Sources/service/TrainingPlanService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/TrainingPlanService.cpp.s
+.PHONY : Sources/service/TrainingPlanService.cpp.s
+
+Sources/view/MatriculaView.obj: Sources/view/MatriculaView.cpp.obj
+.PHONY : Sources/view/MatriculaView.obj
+
+# target to build an object file
+Sources/view/MatriculaView.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/MatriculaView.cpp.obj
+.PHONY : Sources/view/MatriculaView.cpp.obj
+
+Sources/view/MatriculaView.i: Sources/view/MatriculaView.cpp.i
+.PHONY : Sources/view/MatriculaView.i
+
+# target to preprocess a source file
+Sources/view/MatriculaView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/MatriculaView.cpp.i
+.PHONY : Sources/view/MatriculaView.cpp.i
+
+Sources/view/MatriculaView.s: Sources/view/MatriculaView.cpp.s
+.PHONY : Sources/view/MatriculaView.s
+
+# target to generate assembly for a file
+Sources/view/MatriculaView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/MatriculaView.cpp.s
+.PHONY : Sources/view/MatriculaView.cpp.s
+
+Sources/view/StudentView.obj: Sources/view/StudentView.cpp.obj
+.PHONY : Sources/view/StudentView.obj
+
+# target to build an object file
+Sources/view/StudentView.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/StudentView.cpp.obj
+.PHONY : Sources/view/StudentView.cpp.obj
+
+Sources/view/StudentView.i: Sources/view/StudentView.cpp.i
+.PHONY : Sources/view/StudentView.i
+
+# target to preprocess a source file
+Sources/view/StudentView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/StudentView.cpp.i
+.PHONY : Sources/view/StudentView.cpp.i
+
+Sources/view/StudentView.s: Sources/view/StudentView.cpp.s
+.PHONY : Sources/view/StudentView.s
+
+# target to generate assembly for a file
+Sources/view/StudentView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/StudentView.cpp.s
+.PHONY : Sources/view/StudentView.cpp.s
+
+Sources/view/TrainingPlanView.obj: Sources/view/TrainingPlanView.cpp.obj
+.PHONY : Sources/view/TrainingPlanView.obj
+
+# target to build an object file
+Sources/view/TrainingPlanView.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/TrainingPlanView.cpp.obj
+.PHONY : Sources/view/TrainingPlanView.cpp.obj
+
+Sources/view/TrainingPlanView.i: Sources/view/TrainingPlanView.cpp.i
+.PHONY : Sources/view/TrainingPlanView.i
+
+# target to preprocess a source file
+Sources/view/TrainingPlanView.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/TrainingPlanView.cpp.i
+.PHONY : Sources/view/TrainingPlanView.cpp.i
+
+Sources/view/TrainingPlanView.s: Sources/view/TrainingPlanView.cpp.s
+.PHONY : Sources/view/TrainingPlanView.s
+
+# target to generate assembly for a file
+Sources/view/TrainingPlanView.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/TrainingPlanView.cpp.s
+.PHONY : Sources/view/TrainingPlanView.cpp.s
+
+Sources/view/Utils.obj: Sources/view/Utils.cpp.obj
+.PHONY : Sources/view/Utils.obj
+
+# target to build an object file
+Sources/view/Utils.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/Utils.cpp.obj
+.PHONY : Sources/view/Utils.cpp.obj
+
+Sources/view/Utils.i: Sources/view/Utils.cpp.i
+.PHONY : Sources/view/Utils.i
+
+# target to preprocess a source file
+Sources/view/Utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/Utils.cpp.i
+.PHONY : Sources/view/Utils.cpp.i
+
+Sources/view/Utils.s: Sources/view/Utils.cpp.s
+.PHONY : Sources/view/Utils.s
+
+# target to generate assembly for a file
+Sources/view/Utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/Utils.cpp.s
+.PHONY : Sources/view/Utils.cpp.s
+
+Sources/view/View.obj: Sources/view/View.cpp.obj
+.PHONY : Sources/view/View.obj
+
+# target to build an object file
+Sources/view/View.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/View.cpp.obj
+.PHONY : Sources/view/View.cpp.obj
+
+Sources/view/View.i: Sources/view/View.cpp.i
+.PHONY : Sources/view/View.i
+
+# target to preprocess a source file
+Sources/view/View.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/View.cpp.i
+.PHONY : Sources/view/View.cpp.i
+
+Sources/view/View.s: Sources/view/View.cpp.s
+.PHONY : Sources/view/View.s
+
+# target to generate assembly for a file
+Sources/view/View.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/View.cpp.s
+.PHONY : Sources/view/View.cpp.s
 
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
 # target to build an object file
 main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstProject.dir\build.make CMakeFiles/FirstProject.dir/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -148,7 +789,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstProject.dir\build.make CMakeFiles/FirstProject.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -156,56 +797,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstProject.dir\build.make CMakeFiles/FirstProject.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fsoft2026_1DE_3.dir\build.make CMakeFiles/fsoft2026_1DE_3.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-sources/factorial.obj: sources/factorial.cpp.obj
-.PHONY : sources/factorial.obj
-
-# target to build an object file
-sources/factorial.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstProject.dir\build.make CMakeFiles/FirstProject.dir/sources/factorial.cpp.obj
-.PHONY : sources/factorial.cpp.obj
-
-sources/factorial.i: sources/factorial.cpp.i
-.PHONY : sources/factorial.i
-
-# target to preprocess a source file
-sources/factorial.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstProject.dir\build.make CMakeFiles/FirstProject.dir/sources/factorial.cpp.i
-.PHONY : sources/factorial.cpp.i
-
-sources/factorial.s: sources/factorial.cpp.s
-.PHONY : sources/factorial.s
-
-# target to generate assembly for a file
-sources/factorial.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstProject.dir\build.make CMakeFiles/FirstProject.dir/sources/factorial.cpp.s
-.PHONY : sources/factorial.cpp.s
-
-sources/pl3.obj: sources/pl3.cpp.obj
-.PHONY : sources/pl3.obj
-
-# target to build an object file
-sources/pl3.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstProject.dir\build.make CMakeFiles/FirstProject.dir/sources/pl3.cpp.obj
-.PHONY : sources/pl3.cpp.obj
-
-sources/pl3.i: sources/pl3.cpp.i
-.PHONY : sources/pl3.i
-
-# target to preprocess a source file
-sources/pl3.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstProject.dir\build.make CMakeFiles/FirstProject.dir/sources/pl3.cpp.i
-.PHONY : sources/pl3.cpp.i
-
-sources/pl3.s: sources/pl3.cpp.s
-.PHONY : sources/pl3.s
-
-# target to generate assembly for a file
-sources/pl3.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FirstProject.dir\build.make CMakeFiles/FirstProject.dir/sources/pl3.cpp.s
-.PHONY : sources/pl3.cpp.s
 
 # Help Target
 help:
@@ -213,19 +806,93 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... codegen
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... FirstProject
+	@echo ... fsoft2026_1DE_3
+	@echo ... Sources/controllers/controllers.obj
+	@echo ... Sources/controllers/controllers.i
+	@echo ... Sources/controllers/controllers.s
+	@echo ... Sources/exceptions/ApplicationException.obj
+	@echo ... Sources/exceptions/ApplicationException.i
+	@echo ... Sources/exceptions/ApplicationException.s
+	@echo ... Sources/exceptions/DataConsistencyException.obj
+	@echo ... Sources/exceptions/DataConsistencyException.i
+	@echo ... Sources/exceptions/DataConsistencyException.s
+	@echo ... Sources/exceptions/DuplicatedDataException.obj
+	@echo ... Sources/exceptions/DuplicatedDataException.i
+	@echo ... Sources/exceptions/DuplicatedDataException.s
+	@echo ... Sources/exceptions/InvalidDataException.obj
+	@echo ... Sources/exceptions/InvalidDataException.i
+	@echo ... Sources/exceptions/InvalidDataException.s
+	@echo ... Sources/exceptions/NoDataException.obj
+	@echo ... Sources/exceptions/NoDataException.i
+	@echo ... Sources/exceptions/NoDataException.s
+	@echo ... Sources/exceptions/NotFoundException.obj
+	@echo ... Sources/exceptions/NotFoundException.i
+	@echo ... Sources/exceptions/NotFoundException.s
+	@echo ... Sources/mappers/MatriculaMapper.obj
+	@echo ... Sources/mappers/MatriculaMapper.i
+	@echo ... Sources/mappers/MatriculaMapper.s
+	@echo ... Sources/mappers/StudentMapper.obj
+	@echo ... Sources/mappers/StudentMapper.i
+	@echo ... Sources/mappers/StudentMapper.s
+	@echo ... Sources/mappers/TrainingPlanMapper.obj
+	@echo ... Sources/mappers/TrainingPlanMapper.i
+	@echo ... Sources/mappers/TrainingPlanMapper.s
+	@echo ... Sources/model/Matricula.obj
+	@echo ... Sources/model/Matricula.i
+	@echo ... Sources/model/Matricula.s
+	@echo ... Sources/model/MatriculaContainer.obj
+	@echo ... Sources/model/MatriculaContainer.i
+	@echo ... Sources/model/MatriculaContainer.s
+	@echo ... Sources/model/person.obj
+	@echo ... Sources/model/person.i
+	@echo ... Sources/model/person.s
+	@echo ... Sources/model/school.obj
+	@echo ... Sources/model/school.i
+	@echo ... Sources/model/school.s
+	@echo ... Sources/model/student.obj
+	@echo ... Sources/model/student.i
+	@echo ... Sources/model/student.s
+	@echo ... Sources/model/studentcontainer.obj
+	@echo ... Sources/model/studentcontainer.i
+	@echo ... Sources/model/studentcontainer.s
+	@echo ... Sources/model/trainingplan.obj
+	@echo ... Sources/model/trainingplan.i
+	@echo ... Sources/model/trainingplan.s
+	@echo ... Sources/model/trainingplancontainer.obj
+	@echo ... Sources/model/trainingplancontainer.i
+	@echo ... Sources/model/trainingplancontainer.s
+	@echo ... Sources/repo/SchoolMemoryRepository.obj
+	@echo ... Sources/repo/SchoolMemoryRepository.i
+	@echo ... Sources/repo/SchoolMemoryRepository.s
+	@echo ... Sources/service/MatriculaService.obj
+	@echo ... Sources/service/MatriculaService.i
+	@echo ... Sources/service/MatriculaService.s
+	@echo ... Sources/service/StudentService.obj
+	@echo ... Sources/service/StudentService.i
+	@echo ... Sources/service/StudentService.s
+	@echo ... Sources/service/TrainingPlanService.obj
+	@echo ... Sources/service/TrainingPlanService.i
+	@echo ... Sources/service/TrainingPlanService.s
+	@echo ... Sources/view/MatriculaView.obj
+	@echo ... Sources/view/MatriculaView.i
+	@echo ... Sources/view/MatriculaView.s
+	@echo ... Sources/view/StudentView.obj
+	@echo ... Sources/view/StudentView.i
+	@echo ... Sources/view/StudentView.s
+	@echo ... Sources/view/TrainingPlanView.obj
+	@echo ... Sources/view/TrainingPlanView.i
+	@echo ... Sources/view/TrainingPlanView.s
+	@echo ... Sources/view/Utils.obj
+	@echo ... Sources/view/Utils.i
+	@echo ... Sources/view/Utils.s
+	@echo ... Sources/view/View.obj
+	@echo ... Sources/view/View.i
+	@echo ... Sources/view/View.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... sources/factorial.obj
-	@echo ... sources/factorial.i
-	@echo ... sources/factorial.s
-	@echo ... sources/pl3.obj
-	@echo ... sources/pl3.i
-	@echo ... sources/pl3.s
 .PHONY : help
 
 

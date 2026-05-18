@@ -1,10 +1,9 @@
 #include "ApplicationException.h"
 
-ApplicationException::ApplicationException(
-    const string& message
-) : message(message) {
+ApplicationException::ApplicationException(const string& message) {
+    this->message = message;
 }
 
 const char* ApplicationException::what() const noexcept {
-    return message.c_str();
+    return this->message.c_str();
 }

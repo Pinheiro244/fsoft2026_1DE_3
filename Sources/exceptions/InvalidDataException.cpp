@@ -1,6 +1,5 @@
 #include "InvalidDataException.h"
 
-InvalidDataException::InvalidDataException(
-    const string& message
-) : ApplicationException(message) {
+InvalidDataException::InvalidDataException(const string& message)
+    : ApplicationException("Invalid data. " + message) {
 }

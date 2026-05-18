@@ -11,4 +11,3 @@ public:
 
 #endif
 
-#endif //FSOFT2026_1DE_3_DATACONSISTENCYEXCEPTION_H

@@ -1,8 +1,25 @@
-//
-// Created by leand on 14/05/2026.
-//
+#ifndef MATRICULAINDTO_H
+#define MATRICULAINDTO_H
 
-#ifndef FSOFT2026_1DE_3_ENROLLINDTO_H
-#define FSOFT2026_1DE_3_ENROLLINDTO_H
+#include "DateDTO.h"
 
-#endif //FSOFT2026_1DE_3_ENROLLINDTO_H
+class MatriculaINDTO {
+
+public:
+    int studentId;
+    int trainingPlanId;
+    DateDTO date;
+
+    MatriculaINDTO() = default;
+
+    MatriculaINDTO(
+        int studentId,
+        int trainingPlanId,
+        const DateDTO& date
+    ) : studentId(studentId),
+        trainingPlanId(trainingPlanId),
+        date(date) {
+    }
+};
+
+#endif

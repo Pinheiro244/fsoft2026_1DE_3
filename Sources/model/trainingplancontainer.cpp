@@ -1,6 +1,7 @@
-#include "TrainingPlanContainer.h"
+#include "trainingplancontainer.h"
 
-#include <stdexcept>
+#include "DuplicatedDataException.h"
+#include "NotFoundException.h"
 
 TrainingPlanContainer::~TrainingPlanContainer() {
 
@@ -15,7 +16,7 @@ TrainingPlan* TrainingPlanContainer::search(int id) const {
 
     for (TrainingPlan* trainingPlan : trainingPlans) {
 
-        if ((trainingPlan) == id) {
+        if ((*trainingPlan) == id) {
             return trainingPlan;
         }
     }
@@ -30,13 +31,18 @@ void TrainingPlanContainer::add(
     int durationWeeks
 ) {
 
-    TrainingPlan trainingPlan = search(id);
+    TrainingPlan* trainingPlan = search(id);
 
     if (trainingPlan != nullptr) {
-        throw invalid_argument("Duplicated training plan id.");
+        throw DuplicatedDataException("Training Plan: " + to_string(id));
     }
 
-    trainingPlan = new TrainingPlan(id, name, objective, durationWeeks);
+    trainingPlan = new TrainingPlan(
+        id,
+        name,
+        objective,
+        durationWeeks
+    );
 
     trainingPlans.push_back(trainingPlan);
 }
@@ -46,26 +52,29 @@ TrainingPlan* TrainingPlanContainer::get(int id) const {
     TrainingPlan* trainingPlan = search(id);
 
     if (trainingPlan == nullptr) {
-        throw invalid_argument("Training plan not found.");
+        throw NotFoundException("Training Plan: " + to_string(id));
     }
 
     return trainingPlan;
 }
 
-list<TrainingPlan> TrainingPlanContainer::getAll() const {
+list<TrainingPlan*> TrainingPlanContainer::getAll() const {
     return trainingPlans;
 }
 
-void TrainingPlanContainer::remove(int id) {
+TrainingPlan* TrainingPlanContainer::remove(int id) {
 
     for (auto it = trainingPlans.begin(); it != trainingPlans.end(); ++it) {
 
         if ((**it) == id) {
-            deleteit;
+
+            TrainingPlan* trainingPlan = *it;
+
             trainingPlans.erase(it);
-            return;
+
+            return trainingPlan;
         }
     }
 
-    throw invalid_argument("Training plan not found.");
+    throw NotFoundException("Training Plan: " + to_string(id));
 }

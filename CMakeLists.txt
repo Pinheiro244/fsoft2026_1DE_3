@@ -1,35 +1,52 @@
-cmake_minimum_required(VERSION 3.31)
-project(FirstProject)
+cmake_minimum_required(VERSION 3.16)
+project(fsoft2026_1DE_3)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 14)
 
-set(PROJECT_HEADERS_DIR ${PROJECT_SOURCE_DIR}/headers)
-set(PROJECT_SOURCES_DIR ${PROJECT_SOURCE_DIR}/sources)
+include_directories(headers)
+include_directories(headers/model)
+include_directories(headers/repo)
+include_directories(headers/service)
+include_directories(headers/view)
+include_directories(headers/controller)
+include_directories(headers/dto)
+include_directories(headers/exceptions)
+include_directories(headers/mappers)
 
-include_directories(${PROJECT_HEADERS_DIR})
-
-set(SOURCE_FILES
+add_executable(fsoft2026_1DE_3
         main.cpp
-        ${PROJECT_SOURCES_DIR}/factorial.cpp
-        ${PROJECT_SOURCES_DIR}/pl3.cpp
-        headers/controllers/controller.h
-        headers/dto/DateDTO.h
-        headers/dto/MatriculaINDTO.h
-        headers/dto/MatriculaOUTDTO.h
-        mock/MockData.cpp
-        mock/MockData.h
-        headers/model/studentcontainer.h
-        Sources/model/studentcontainer.cpp
-        headers/exceptions/ApplicationException.h
-        Sources/exceptions/ApplicationException.cpp
-        headers/exceptions/InvalidDataException.h
-        Sources/exceptions/InvalidDataException.cpp
-        headers/exceptions/DuplicatedDataException.h
-        Sources/exceptions/DuplicatedDataException.cpp
-        headers/exceptions/NotFoundException.h
-        Sources/exceptions/NotFoundException.cpp
-        headers/exceptions/DataConsistencyException.h
-        Sources/exceptions/DataConsistencyException.h.cpp
-)
 
-add_executable(FirstProject ${SOURCE_FILES})
+        Sources/model/person.cpp
+        Sources/model/student.cpp
+        Sources/model/studentcontainer.cpp
+        Sources/model/trainingplan.cpp
+        Sources/model/trainingplancontainer.cpp
+        Sources/model/Matricula.cpp
+        Sources/model/MatriculaContainer.cpp
+        Sources/model/school.cpp
+
+        Sources/repo/SchoolMemoryRepository.cpp
+
+        Sources/exceptions/ApplicationException.cpp
+        Sources/exceptions/DataConsistencyException.cpp
+        Sources/exceptions/DuplicatedDataException.cpp
+        Sources/exceptions/InvalidDataException.cpp
+        Sources/exceptions/NoDataException.cpp
+        Sources/exceptions/NotFoundException.cpp
+
+        Sources/mappers/StudentMapper.cpp
+        Sources/mappers/TrainingPlanMapper.cpp
+        Sources/mappers/MatriculaMapper.cpp
+
+        Sources/service/StudentService.cpp
+        Sources/service/TrainingPlanService.cpp
+        Sources/service/MatriculaService.cpp
+
+        Sources/view/Utils.cpp
+        Sources/view/View.cpp
+        Sources/view/StudentView.cpp
+        Sources/view/TrainingPlanView.cpp
+        Sources/view/MatriculaView.cpp
+
+        Sources/controllers/controllers.cpp
+)

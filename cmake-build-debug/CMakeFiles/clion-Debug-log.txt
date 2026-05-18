@@ -1,13 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2025.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3 -B C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug
--- Configuring done (0.3s)
-CMake Error at CMakeLists.txt:35 (add_executable):
-  Cannot find source file:
-
-    main.cpp
-
-
-CMake Error at CMakeLists.txt:35 (add_executable):
-  No SOURCES given to target: FirstProject
-
-
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+"C:\Program Files\JetBrains\CLion 2025.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=debug -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3 -B C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug
+-- Configuring done (0.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/cmake-build-debug

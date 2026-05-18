@@ -1,7 +1,7 @@
+#include "studentcontainer.h"
 
-#include "StudentContainer.h"
-
-#include <stdexcept>
+#include "DuplicatedDataException.h"
+#include "NotFoundException.h"
 
 StudentContainer::~StudentContainer() {
 
@@ -16,7 +16,7 @@ Student* StudentContainer::search(int id) const {
 
     for (Student* student : students) {
 
-        if ((student) == id) {
+        if ((*student) == id) {
             return student;
         }
     }
@@ -31,10 +31,10 @@ void StudentContainer::add(
     const string& email
 ) {
 
-    Student student = search(id);
+    Student* student = search(id);
 
     if (student != nullptr) {
-        throw invalid_argument("Duplicated student id.");
+        throw DuplicatedDataException("Student: " + to_string(id));
     }
 
     student = new Student(
@@ -52,29 +52,29 @@ Student* StudentContainer::get(int id) const {
     Student* student = search(id);
 
     if (student == nullptr) {
-        throw invalid_argument("Student not found.");
+        throw NotFoundException("Student: " + to_string(id));
     }
 
     return student;
 }
 
-list<Student> StudentContainer::getAll() const {
+list<Student*> StudentContainer::getAll() const {
     return students;
 }
 
-void StudentContainer::remove(int id) {
+Student* StudentContainer::remove(int id) {
 
     for (auto it = students.begin(); it != students.end(); ++it) {
 
         if ((**it) == id) {
 
-            deleteit;
+            Student* student = *it;
 
             students.erase(it);
 
-            return;
+            return student;
         }
     }
 
-    throw invalid_argument("Student not found.");
+    throw NotFoundException("Student: " + to_string(id));
 }

@@ -1,8 +1,18 @@
-//
-// Created by leand on 14/05/2026.
-//
+#ifndef DATEDTO_H
+#define DATEDTO_H
 
-#ifndef FSOFT2026_1DE_3_DATEDTO_H
-#define FSOFT2026_1DE_3_DATEDTO_H
+class DateDTO {
 
-#endif //FSOFT2026_1DE_3_DATEDTO_H
+public:
+    int day;
+    int month;
+    int year;
+
+    DateDTO() = default;
+
+    DateDTO(int day, int month, int year)
+        : day(day), month(month), year(year) {
+    }
+};
+
+#endif

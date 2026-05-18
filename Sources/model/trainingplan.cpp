@@ -1,6 +1,6 @@
 #include "TrainingPlan.h"
 
-#include <stdexcept>
+#include "InvalidDataException.h"
 
 TrainingPlan::TrainingPlan(
     int id,
@@ -52,7 +52,7 @@ int TrainingPlan::getDurationWeeks() const {
 void TrainingPlan::setName(const string& name) {
 
     if (!isNameValid(name)) {
-        throw invalid_argument("Invalid training plan name.");
+        throw InvalidDataException("Invalid training plan name.");
     }
 
     this->name = name;
@@ -61,7 +61,7 @@ void TrainingPlan::setName(const string& name) {
 void TrainingPlan::setObjective(const string& objective) {
 
     if (!isObjectiveValid(objective)) {
-        throw invalid_argument("Invalid training plan objective.");
+        throw InvalidDataException("Invalid training plan objective.");
     }
 
     this->objective = objective;
@@ -70,7 +70,7 @@ void TrainingPlan::setObjective(const string& objective) {
 void TrainingPlan::setDurationWeeks(int durationWeeks) {
 
     if (!isDurationWeeksValid(durationWeeks)) {
-        throw invalid_argument("Invalid training plan duration.");
+        throw InvalidDataException("Invalid training plan duration.");
     }
 
     this->durationWeeks = durationWeeks;

@@ -18,4 +18,3 @@ public:
 };
 
 #endif
-#endif //FSOFT2026_1DE_3_APPLICATIONEXCEPTION_H
