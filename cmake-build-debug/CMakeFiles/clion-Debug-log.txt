@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2025.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=debug -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3 -B C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug
--- Configuring done (0.1s)
+"C:\Program Files\JetBrains\CLion 2025.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "MinGW Makefiles" -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3 -B C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug
+-- Configuring done (0.2s)
 -- Generating done (0.1s)
--- Build files have been written to: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/cmake-build-debug
+-- Build files have been written to: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/cmake-build-debug

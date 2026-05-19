@@ -43,7 +43,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "debug"
+			"value" : "Debug"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/35196/CLionProjects/fsoft2026_1DE_3/cmake-build-debug"
+			"value" : "c:/Users/leand/CLionProjects/fsoft2026_1DE_3/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/35196/CLionProjects/fsoft2026_1DE_3/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/leand/CLionProjects/fsoft2026_1DE_3/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/35196/CLionProjects/fsoft2026_1DE_3"
+			"value" : "C:/Users/leand/CLionProjects/fsoft2026_1DE_3"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1307,7 +1307,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/35196/CLionProjects/fsoft2026_1DE_3/cmake-build-debug"
+			"value" : "C:/Users/leand/CLionProjects/fsoft2026_1DE_3/cmake-build-debug"
 		},
 		{
 			"name" : "FirstProject_IS_TOP_LEVEL",
@@ -1331,7 +1331,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/35196/CLionProjects/fsoft2026_1DE_3"
+			"value" : "C:/Users/leand/CLionProjects/fsoft2026_1DE_3"
 		},
 		{
 			"name" : "fsoft2026_1DE_3_BINARY_DIR",
@@ -1343,7 +1343,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/35196/CLionProjects/fsoft2026_1DE_3/cmake-build-debug"
+			"value" : "C:/Users/leand/CLionProjects/fsoft2026_1DE_3/cmake-build-debug"
 		},
 		{
 			"name" : "fsoft2026_1DE_3_IS_TOP_LEVEL",
@@ -1367,7 +1367,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/35196/CLionProjects/fsoft2026_1DE_3"
+			"value" : "C:/Users/leand/CLionProjects/fsoft2026_1DE_3"
 		}
 	],
 	"kind" : "cache",

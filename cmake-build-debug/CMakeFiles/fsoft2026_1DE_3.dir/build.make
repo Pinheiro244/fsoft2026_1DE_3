@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2025.3.3\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\35196\CLionProjects\fsoft2026_1DE_3
+CMAKE_SOURCE_DIR = C:\Users\leand\CLionProjects\fsoft2026_1DE_3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/fsoft2026_1DE_3.dir/depend.make
@@ -73,423 +73,408 @@ CMakeFiles/fsoft2026_1DE_3.dir/codegen:
 
 CMakeFiles/fsoft2026_1DE_3.dir/main.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
 CMakeFiles/fsoft2026_1DE_3.dir/main.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/main.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/main.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/main.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/main.cpp
 CMakeFiles/fsoft2026_1DE_3.dir/main.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/main.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\main.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\main.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/main.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\main.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\main.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\main.cpp
 
 CMakeFiles/fsoft2026_1DE_3.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\main.cpp > CMakeFiles\fsoft2026_1DE_3.dir\main.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\main.cpp > CMakeFiles\fsoft2026_1DE_3.dir\main.cpp.i
 
 CMakeFiles/fsoft2026_1DE_3.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\main.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\main.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\main.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\main.cpp.s
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/person.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/person.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/person.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/model/person.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/person.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/model/person.cpp
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/person.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/person.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/person.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\person.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\person.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\person.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/person.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/person.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\person.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\person.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\person.cpp
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/person.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/person.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\person.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\person.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\person.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\person.cpp.i
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/person.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/person.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\person.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\person.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\person.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\person.cpp.s
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/student.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/student.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/student.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/model/student.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/student.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/model/student.cpp
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/student.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/student.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/student.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\student.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\student.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/student.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/student.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\student.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\student.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\student.cpp
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/student.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\student.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\student.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\student.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\student.cpp.i
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/student.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\student.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\student.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\student.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\student.cpp.s
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/studentcontainer.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/studentcontainer.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/studentcontainer.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/model/studentcontainer.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/studentcontainer.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/model/studentcontainer.cpp
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/studentcontainer.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/studentcontainer.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/studentcontainer.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\studentcontainer.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\studentcontainer.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\studentcontainer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/studentcontainer.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/studentcontainer.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\studentcontainer.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\studentcontainer.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\studentcontainer.cpp
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/studentcontainer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/studentcontainer.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\studentcontainer.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\studentcontainer.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\studentcontainer.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\studentcontainer.cpp.i
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/studentcontainer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/studentcontainer.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\studentcontainer.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\studentcontainer.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\studentcontainer.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\studentcontainer.cpp.s
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplan.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplan.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplan.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/model/trainingplan.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplan.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/model/trainingplan.cpp
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplan.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplan.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplan.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\trainingplan.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\trainingplan.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\trainingplan.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplan.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplan.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\trainingplan.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\trainingplan.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\trainingplan.cpp
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplan.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplan.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\trainingplan.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\trainingplan.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\trainingplan.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\trainingplan.cpp.i
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplan.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplan.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\trainingplan.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\trainingplan.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\trainingplan.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\trainingplan.cpp.s
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplancontainer.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplancontainer.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplancontainer.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/model/trainingplancontainer.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplancontainer.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/model/trainingplancontainer.cpp
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplancontainer.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplancontainer.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplancontainer.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\trainingplancontainer.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\trainingplancontainer.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\trainingplancontainer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplancontainer.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplancontainer.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\trainingplancontainer.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\trainingplancontainer.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\trainingplancontainer.cpp
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplancontainer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplancontainer.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\trainingplancontainer.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\trainingplancontainer.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\trainingplancontainer.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\trainingplancontainer.cpp.i
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplancontainer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/trainingplancontainer.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\trainingplancontainer.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\trainingplancontainer.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\trainingplancontainer.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\trainingplancontainer.cpp.s
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/Matricula.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/Matricula.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/Matricula.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/model/Matricula.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/Matricula.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/model/Matricula.cpp
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/Matricula.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/Matricula.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/Matricula.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\Matricula.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\Matricula.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\Matricula.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/Matricula.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/Matricula.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\Matricula.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\Matricula.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\Matricula.cpp
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/Matricula.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/Matricula.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\Matricula.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\Matricula.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\Matricula.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\Matricula.cpp.i
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/Matricula.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/Matricula.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\Matricula.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\Matricula.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\Matricula.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\Matricula.cpp.s
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/MatriculaContainer.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/MatriculaContainer.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/MatriculaContainer.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/model/MatriculaContainer.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/MatriculaContainer.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/model/MatriculaContainer.cpp
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/MatriculaContainer.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/MatriculaContainer.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/MatriculaContainer.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\MatriculaContainer.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\MatriculaContainer.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\MatriculaContainer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/MatriculaContainer.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/MatriculaContainer.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\MatriculaContainer.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\MatriculaContainer.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\MatriculaContainer.cpp
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/MatriculaContainer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/MatriculaContainer.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\MatriculaContainer.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\MatriculaContainer.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\MatriculaContainer.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\MatriculaContainer.cpp.i
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/MatriculaContainer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/MatriculaContainer.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\MatriculaContainer.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\MatriculaContainer.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\MatriculaContainer.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\MatriculaContainer.cpp.s
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/school.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/school.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/school.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/model/school.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/school.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/model/school.cpp
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/school.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/school.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/school.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\school.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\school.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\school.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/school.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/school.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\school.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\school.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\school.cpp
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/school.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/school.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\school.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\school.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\school.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\school.cpp.i
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/school.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/school.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\model\school.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\school.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\model\school.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\model\school.cpp.s
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/repo/SchoolMemoryRepository.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/repo/SchoolMemoryRepository.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/repo/SchoolMemoryRepository.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/repo/SchoolMemoryRepository.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/repo/SchoolMemoryRepository.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/repo/SchoolMemoryRepository.cpp
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/repo/SchoolMemoryRepository.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/repo/SchoolMemoryRepository.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/repo/SchoolMemoryRepository.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\repo\SchoolMemoryRepository.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\repo\SchoolMemoryRepository.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\repo\SchoolMemoryRepository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/repo/SchoolMemoryRepository.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/repo/SchoolMemoryRepository.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\repo\SchoolMemoryRepository.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\repo\SchoolMemoryRepository.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\repo\SchoolMemoryRepository.cpp
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/repo/SchoolMemoryRepository.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/repo/SchoolMemoryRepository.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\repo\SchoolMemoryRepository.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\repo\SchoolMemoryRepository.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\repo\SchoolMemoryRepository.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\repo\SchoolMemoryRepository.cpp.i
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/repo/SchoolMemoryRepository.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/repo/SchoolMemoryRepository.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\repo\SchoolMemoryRepository.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\repo\SchoolMemoryRepository.cpp.s
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/exceptions/ApplicationException.cpp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\ApplicationException.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\ApplicationException.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\ApplicationException.cpp
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\ApplicationException.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\ApplicationException.cpp.i
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\ApplicationException.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\ApplicationException.cpp.s
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/exceptions/DataConsistencyException.cpp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\DataConsistencyException.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\DataConsistencyException.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\DataConsistencyException.cpp
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\DataConsistencyException.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\DataConsistencyException.cpp.i
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\DataConsistencyException.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\DataConsistencyException.cpp.s
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/exceptions/DuplicatedDataException.cpp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\DuplicatedDataException.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\DuplicatedDataException.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\DuplicatedDataException.cpp
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\DuplicatedDataException.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\DuplicatedDataException.cpp.i
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\DuplicatedDataException.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\DuplicatedDataException.cpp.s
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/exceptions/InvalidDataException.cpp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\InvalidDataException.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\InvalidDataException.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\InvalidDataException.cpp
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\InvalidDataException.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\InvalidDataException.cpp.i
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\InvalidDataException.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\InvalidDataException.cpp.s
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NoDataException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NoDataException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NoDataException.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/exceptions/NoDataException.cpp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NoDataException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NoDataException.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NoDataException.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\NoDataException.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\NoDataException.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\NoDataException.cpp
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NoDataException.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NoDataException.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\NoDataException.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\NoDataException.cpp.i
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NoDataException.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NoDataException.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\NoDataException.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\NoDataException.cpp.s
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/exceptions/NotFoundException.cpp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\NotFoundException.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\NotFoundException.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\NotFoundException.cpp
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\NotFoundException.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\NotFoundException.cpp.i
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\NotFoundException.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\NotFoundException.cpp.s
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/mappers/StudentMapper.cpp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\StudentMapper.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\StudentMapper.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\mappers\StudentMapper.cpp
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\mappers\StudentMapper.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\StudentMapper.cpp.i
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\mappers\StudentMapper.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\StudentMapper.cpp.s
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/mappers/TrainingPlanMapper.cpp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\TrainingPlanMapper.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\TrainingPlanMapper.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\mappers\TrainingPlanMapper.cpp
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\mappers\TrainingPlanMapper.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\TrainingPlanMapper.cpp.i
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\mappers\TrainingPlanMapper.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\TrainingPlanMapper.cpp.s
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/mappers/MatriculaMapper.cpp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\MatriculaMapper.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\MatriculaMapper.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\mappers\MatriculaMapper.cpp
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\mappers\MatriculaMapper.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\MatriculaMapper.cpp.i
-
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\mappers\MatriculaMapper.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\MatriculaMapper.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\repo\SchoolMemoryRepository.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\repo\SchoolMemoryRepository.cpp.s
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/StudentService.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/StudentService.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/StudentService.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/service/StudentService.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/StudentService.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/service/StudentService.cpp
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/StudentService.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/StudentService.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/StudentService.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\StudentService.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\StudentService.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\service\StudentService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/StudentService.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/StudentService.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\StudentService.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\StudentService.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\service\StudentService.cpp
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/StudentService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/StudentService.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\service\StudentService.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\StudentService.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\service\StudentService.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\StudentService.cpp.i
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/StudentService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/StudentService.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\service\StudentService.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\StudentService.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\service\StudentService.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\StudentService.cpp.s
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/TrainingPlanService.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/TrainingPlanService.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/TrainingPlanService.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/service/TrainingPlanService.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/TrainingPlanService.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/service/TrainingPlanService.cpp
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/TrainingPlanService.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/TrainingPlanService.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/TrainingPlanService.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\TrainingPlanService.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\TrainingPlanService.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\service\TrainingPlanService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/TrainingPlanService.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/TrainingPlanService.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\TrainingPlanService.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\TrainingPlanService.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\service\TrainingPlanService.cpp
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/TrainingPlanService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/TrainingPlanService.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\service\TrainingPlanService.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\TrainingPlanService.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\service\TrainingPlanService.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\TrainingPlanService.cpp.i
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/TrainingPlanService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/TrainingPlanService.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\service\TrainingPlanService.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\TrainingPlanService.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\service\TrainingPlanService.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\TrainingPlanService.cpp.s
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/MatriculaService.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/MatriculaService.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/MatriculaService.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/service/MatriculaService.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/MatriculaService.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/service/MatriculaService.cpp
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/MatriculaService.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/MatriculaService.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/MatriculaService.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\MatriculaService.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\MatriculaService.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\service\MatriculaService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/MatriculaService.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/MatriculaService.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\MatriculaService.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\MatriculaService.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\service\MatriculaService.cpp
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/MatriculaService.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/MatriculaService.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\service\MatriculaService.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\MatriculaService.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\service\MatriculaService.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\MatriculaService.cpp.i
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/MatriculaService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/MatriculaService.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\service\MatriculaService.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\MatriculaService.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\service\MatriculaService.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\service\MatriculaService.cpp.s
 
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/Utils.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/Utils.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/Utils.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/view/Utils.cpp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/Utils.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/Utils.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/Utils.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\Utils.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\Utils.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\view\Utils.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/view.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/view.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/view.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/view/view.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/view.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/view.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/view.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\view.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\view.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\view\view.cpp
 
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/Utils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/Utils.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\view\Utils.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\Utils.cpp.i
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/view.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/view.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\view\view.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\view.cpp.i
 
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/Utils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/Utils.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\view\Utils.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\Utils.cpp.s
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/view.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/view.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\view\view.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\view.cpp.s
 
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/View.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/View.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/View.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/view/View.cpp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/View.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/View.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/View.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\View.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\View.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\view\View.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/utils.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/utils.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/utils.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/view/utils.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/utils.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/utils.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/utils.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\utils.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\utils.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\view\utils.cpp
 
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/View.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/View.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\view\View.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\View.cpp.i
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/utils.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\view\utils.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\utils.cpp.i
 
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/View.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/View.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\view\View.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\View.cpp.s
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/utils.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\view\utils.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\utils.cpp.s
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/StudentView.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/StudentView.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/StudentView.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/view/StudentView.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/StudentView.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/view/StudentView.cpp
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/StudentView.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/StudentView.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/StudentView.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\StudentView.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\StudentView.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\view\StudentView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/StudentView.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/StudentView.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\StudentView.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\StudentView.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\view\StudentView.cpp
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/StudentView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/StudentView.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\view\StudentView.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\StudentView.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\view\StudentView.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\StudentView.cpp.i
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/StudentView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/StudentView.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\view\StudentView.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\StudentView.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\view\StudentView.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\StudentView.cpp.s
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/TrainingPlanView.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/TrainingPlanView.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/TrainingPlanView.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/view/TrainingPlanView.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/TrainingPlanView.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/view/TrainingPlanView.cpp
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/TrainingPlanView.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/TrainingPlanView.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/TrainingPlanView.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\TrainingPlanView.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\TrainingPlanView.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\view\TrainingPlanView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/TrainingPlanView.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/TrainingPlanView.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\TrainingPlanView.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\TrainingPlanView.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\view\TrainingPlanView.cpp
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/TrainingPlanView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/TrainingPlanView.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\view\TrainingPlanView.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\TrainingPlanView.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\view\TrainingPlanView.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\TrainingPlanView.cpp.i
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/TrainingPlanView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/TrainingPlanView.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\view\TrainingPlanView.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\TrainingPlanView.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\view\TrainingPlanView.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\TrainingPlanView.cpp.s
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/MatriculaView.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/MatriculaView.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/MatriculaView.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/view/MatriculaView.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/MatriculaView.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/view/MatriculaView.cpp
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/MatriculaView.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/MatriculaView.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/MatriculaView.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\MatriculaView.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\MatriculaView.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\view\MatriculaView.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/MatriculaView.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/MatriculaView.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\MatriculaView.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\MatriculaView.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\view\MatriculaView.cpp
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/MatriculaView.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/MatriculaView.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\view\MatriculaView.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\MatriculaView.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\view\MatriculaView.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\MatriculaView.cpp.i
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/MatriculaView.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/MatriculaView.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\view\MatriculaView.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\MatriculaView.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\view\MatriculaView.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\view\MatriculaView.cpp.s
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/controllers/controllers.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/controllers/controllers.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
-CMakeFiles/fsoft2026_1DE_3.dir/Sources/controllers/controllers.cpp.obj: C:/Users/35196/CLionProjects/fsoft2026_1DE_3/Sources/controllers/controllers.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/controllers/controllers.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/controllers/controllers.cpp
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/controllers/controllers.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/controllers/controllers.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/controllers/controllers.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\controllers\controllers.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\controllers\controllers.cpp.obj -c C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\controllers\controllers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/controllers/controllers.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/controllers/controllers.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\controllers\controllers.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\controllers\controllers.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\controllers\controllers.cpp
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/controllers/controllers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/controllers/controllers.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\controllers\controllers.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\controllers\controllers.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\controllers\controllers.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\controllers\controllers.cpp.i
 
 CMakeFiles/fsoft2026_1DE_3.dir/Sources/controllers/controllers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/controllers/controllers.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\35196\CLionProjects\fsoft2026_1DE_3\Sources\controllers\controllers.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\controllers\controllers.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\controllers\controllers.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\controllers\controllers.cpp.s
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/mappers/StudentMapper.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\StudentMapper.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\StudentMapper.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\mappers\StudentMapper.cpp
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\mappers\StudentMapper.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\StudentMapper.cpp.i
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\mappers\StudentMapper.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\StudentMapper.cpp.s
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/mappers/TrainingPlanMapper.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\TrainingPlanMapper.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\TrainingPlanMapper.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\mappers\TrainingPlanMapper.cpp
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\mappers\TrainingPlanMapper.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\TrainingPlanMapper.cpp.i
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\mappers\TrainingPlanMapper.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\TrainingPlanMapper.cpp.s
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/mappers/MatriculaMapper.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\MatriculaMapper.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\MatriculaMapper.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\mappers\MatriculaMapper.cpp
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\mappers\MatriculaMapper.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\MatriculaMapper.cpp.i
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\mappers\MatriculaMapper.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\mappers\MatriculaMapper.cpp.s
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/exceptions/ApplicationException.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\ApplicationException.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\ApplicationException.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\ApplicationException.cpp
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\ApplicationException.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\ApplicationException.cpp.i
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\ApplicationException.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\ApplicationException.cpp.s
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/exceptions/DataConsistencyException.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\DataConsistencyException.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\DataConsistencyException.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\DataConsistencyException.cpp
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\DataConsistencyException.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\DataConsistencyException.cpp.i
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\DataConsistencyException.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\DataConsistencyException.cpp.s
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/exceptions/DuplicatedDataException.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\DuplicatedDataException.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\DuplicatedDataException.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\DuplicatedDataException.cpp
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\DuplicatedDataException.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\DuplicatedDataException.cpp.i
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\DuplicatedDataException.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\DuplicatedDataException.cpp.s
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/exceptions/InvalidDataException.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\InvalidDataException.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\InvalidDataException.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\InvalidDataException.cpp
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\InvalidDataException.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\InvalidDataException.cpp.i
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\InvalidDataException.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\InvalidDataException.cpp.s
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/flags.make
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/includes_CXX.rsp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.obj: C:/Users/leand/CLionProjects/fsoft2026_1DE_3/Sources/exceptions/NotFoundException.cpp
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.obj: CMakeFiles/fsoft2026_1DE_3.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.obj -MF CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\NotFoundException.cpp.obj.d -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\NotFoundException.cpp.obj -c C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\NotFoundException.cpp
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\NotFoundException.cpp > CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\NotFoundException.cpp.i
+
+CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.3\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\leand\CLionProjects\fsoft2026_1DE_3\Sources\exceptions\NotFoundException.cpp -o CMakeFiles\fsoft2026_1DE_3.dir\Sources\exceptions\NotFoundException.cpp.s
 
 # Object files for target fsoft2026_1DE_3
 fsoft2026_1DE_3_OBJECTS = \
@@ -503,24 +488,23 @@ fsoft2026_1DE_3_OBJECTS = \
 "CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/MatriculaContainer.cpp.obj" \
 "CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/school.cpp.obj" \
 "CMakeFiles/fsoft2026_1DE_3.dir/Sources/repo/SchoolMemoryRepository.cpp.obj" \
+"CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/StudentService.cpp.obj" \
+"CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/TrainingPlanService.cpp.obj" \
+"CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/MatriculaService.cpp.obj" \
+"CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/view.cpp.obj" \
+"CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/utils.cpp.obj" \
+"CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/StudentView.cpp.obj" \
+"CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/TrainingPlanView.cpp.obj" \
+"CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/MatriculaView.cpp.obj" \
+"CMakeFiles/fsoft2026_1DE_3.dir/Sources/controllers/controllers.cpp.obj" \
+"CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.obj" \
+"CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.obj" \
+"CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.obj" \
 "CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.obj" \
 "CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.obj" \
 "CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.obj" \
 "CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.obj" \
-"CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NoDataException.cpp.obj" \
-"CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.obj" \
-"CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.obj" \
-"CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.obj" \
-"CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.obj" \
-"CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/StudentService.cpp.obj" \
-"CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/TrainingPlanService.cpp.obj" \
-"CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/MatriculaService.cpp.obj" \
-"CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/Utils.cpp.obj" \
-"CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/View.cpp.obj" \
-"CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/StudentView.cpp.obj" \
-"CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/TrainingPlanView.cpp.obj" \
-"CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/MatriculaView.cpp.obj" \
-"CMakeFiles/fsoft2026_1DE_3.dir/Sources/controllers/controllers.cpp.obj"
+"CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.obj"
 
 # External object files for target fsoft2026_1DE_3
 fsoft2026_1DE_3_EXTERNAL_OBJECTS =
@@ -535,29 +519,28 @@ fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/Matricula.cpp.
 fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/MatriculaContainer.cpp.obj
 fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/model/school.cpp.obj
 fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/repo/SchoolMemoryRepository.cpp.obj
-fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.obj
-fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.obj
-fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.obj
-fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.obj
-fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NoDataException.cpp.obj
-fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.obj
-fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.obj
-fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.obj
-fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.obj
 fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/StudentService.cpp.obj
 fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/TrainingPlanService.cpp.obj
 fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/service/MatriculaService.cpp.obj
-fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/Utils.cpp.obj
-fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/View.cpp.obj
+fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/view.cpp.obj
+fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/utils.cpp.obj
 fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/StudentView.cpp.obj
 fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/TrainingPlanView.cpp.obj
 fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/view/MatriculaView.cpp.obj
 fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/controllers/controllers.cpp.obj
+fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/StudentMapper.cpp.obj
+fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/TrainingPlanMapper.cpp.obj
+fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/mappers/MatriculaMapper.cpp.obj
+fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/ApplicationException.cpp.obj
+fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DataConsistencyException.cpp.obj
+fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/DuplicatedDataException.cpp.obj
+fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/InvalidDataException.cpp.obj
+fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/Sources/exceptions/NotFoundException.cpp.obj
 fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/build.make
 fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/linkLibs.rsp
 fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/objects1.rsp
 fsoft2026_1DE_3.exe: CMakeFiles/fsoft2026_1DE_3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking CXX executable fsoft2026_1DE_3.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable fsoft2026_1DE_3.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\fsoft2026_1DE_3.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -569,6 +552,6 @@ CMakeFiles/fsoft2026_1DE_3.dir/clean:
 .PHONY : CMakeFiles/fsoft2026_1DE_3.dir/clean
 
 CMakeFiles/fsoft2026_1DE_3.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\35196\CLionProjects\fsoft2026_1DE_3 C:\Users\35196\CLionProjects\fsoft2026_1DE_3 C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug C:\Users\35196\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles\fsoft2026_1DE_3.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\leand\CLionProjects\fsoft2026_1DE_3 C:\Users\leand\CLionProjects\fsoft2026_1DE_3 C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug C:\Users\leand\CLionProjects\fsoft2026_1DE_3\cmake-build-debug\CMakeFiles\fsoft2026_1DE_3.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/fsoft2026_1DE_3.dir/depend
 

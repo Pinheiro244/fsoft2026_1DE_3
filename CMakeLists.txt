@@ -27,26 +27,25 @@ add_executable(fsoft2026_1DE_3
 
         Sources/repo/SchoolMemoryRepository.cpp
 
-        Sources/exceptions/ApplicationException.cpp
-        Sources/exceptions/DataConsistencyException.cpp
-        Sources/exceptions/DuplicatedDataException.cpp
-        Sources/exceptions/InvalidDataException.cpp
-        Sources/exceptions/NoDataException.cpp
-        Sources/exceptions/NotFoundException.cpp
-
-        Sources/mappers/StudentMapper.cpp
-        Sources/mappers/TrainingPlanMapper.cpp
-        Sources/mappers/MatriculaMapper.cpp
-
         Sources/service/StudentService.cpp
         Sources/service/TrainingPlanService.cpp
         Sources/service/MatriculaService.cpp
 
-        Sources/view/Utils.cpp
-        Sources/view/View.cpp
+        Sources/view/view.cpp
+        Sources/view/utils.cpp
         Sources/view/StudentView.cpp
         Sources/view/TrainingPlanView.cpp
         Sources/view/MatriculaView.cpp
 
         Sources/controllers/controllers.cpp
+
+        Sources/mappers/StudentMapper.cpp
+        Sources/mappers/TrainingPlanMapper.cpp
+        Sources/mappers/MatriculaMapper.cpp
+
+        Sources/exceptions/ApplicationException.cpp
+        Sources/exceptions/DataConsistencyException.cpp
+        Sources/exceptions/DuplicatedDataException.cpp
+        Sources/exceptions/InvalidDataException.cpp
+        Sources/exceptions/NotFoundException.cpp
 )

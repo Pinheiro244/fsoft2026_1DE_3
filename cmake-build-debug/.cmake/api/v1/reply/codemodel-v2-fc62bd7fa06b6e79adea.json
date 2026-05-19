@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-debug-d0094a50bb2071803777.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -19,7 +19,7 @@
 					]
 				}
 			],
-			"name" : "debug",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "fsoft2026_1DE_3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-fsoft2026_1DE_3-debug-da20fcae13d32260b0f7.json",
+					"jsonFile" : "target-fsoft2026_1DE_3-Debug-b3f749067acc01f57079.json",
 					"name" : "fsoft2026_1DE_3",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/35196/CLionProjects/fsoft2026_1DE_3/cmake-build-debug",
-		"source" : "C:/Users/35196/CLionProjects/fsoft2026_1DE_3"
+		"build" : "C:/Users/leand/CLionProjects/fsoft2026_1DE_3/cmake-build-debug",
+		"source" : "C:/Users/leand/CLionProjects/fsoft2026_1DE_3"
 	},
 	"version" : 
 	{
