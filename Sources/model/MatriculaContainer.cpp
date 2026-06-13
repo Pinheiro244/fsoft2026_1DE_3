@@ -26,11 +26,11 @@ Matricula* MatriculaContainer::search(int id) const {
     return nullptr;
 }
 
-Matricula* MatriculaContainer::search(int studentId, int trainingPlanId) const {
+Matricula* MatriculaContainer::search(Student *student, TrainingPlan *trainingPlan) const {
 
     for (Matricula* matricula : matriculas) {
 
-        if (matricula->hasStudentAndTrainingPlan(studentId, trainingPlanId)) {
+        if (matricula->hasStudentAndTrainingPlan(student, trainingPlan)) {
             return matricula;
         }
     }
@@ -51,7 +51,7 @@ void MatriculaContainer::add(
         throw DuplicatedDataException("Matricula: " + to_string(id));
     }
 
-    if (search(student->getId(), trainingPlan->getId()) != nullptr) {
+    if (search(student, trainingPlan) != nullptr) {
         throw DuplicatedDataException(
             "Student " + to_string(student->getId()) +
             " already has Training Plan " +
@@ -82,15 +82,15 @@ Matricula* MatriculaContainer::get(int id) const {
     return matricula;
 }
 
-Matricula* MatriculaContainer::get(int studentId, int trainingPlanId) const {
+Matricula* MatriculaContainer::get(Student *student, TrainingPlan *trainingPlan) const {
 
-    Matricula* matricula = search(studentId, trainingPlanId);
+    Matricula* matricula = search(student, trainingPlan);
 
     if (matricula == nullptr) {
         throw NotFoundException(
-            "Student: " + to_string(studentId) +
+            "Student: " + to_string(student->getId()) +
             " Training Plan: " +
-            to_string(trainingPlanId)
+            to_string(trainingPlan->getId())
         );
     }
 
@@ -101,13 +101,13 @@ list<Matricula*> MatriculaContainer::getAll() const {
     return matriculas;
 }
 
-list<Matricula*> MatriculaContainer::getByStudent(int studentId) const {
+list<Matricula*> MatriculaContainer::getByStudent(Student *student) const {
 
     list<Matricula*> result;
 
     for (Matricula* matricula : matriculas) {
 
-        if (matricula->hasStudent(studentId)) {
+        if (matricula->hasStudent(student)) {
             result.push_back(matricula);
         }
     }
@@ -115,13 +115,13 @@ list<Matricula*> MatriculaContainer::getByStudent(int studentId) const {
     return result;
 }
 
-list<Matricula*> MatriculaContainer::getByTrainingPlan(int trainingPlanId) const {
+list<Matricula*> MatriculaContainer::getByTrainingPlan(TrainingPlan *trainingPlan) const {
 
     list<Matricula*> result;
 
     for (Matricula* matricula : matriculas) {
 
-        if (matricula->hasTrainingPlan(trainingPlanId)) {
+        if (matricula->hasTrainingPlan(trainingPlan)) {
             result.push_back(matricula);
         }
     }
@@ -129,11 +129,11 @@ list<Matricula*> MatriculaContainer::getByTrainingPlan(int trainingPlanId) const
     return result;
 }
 
-Matricula* MatriculaContainer::remove(int studentId, int trainingPlanId) {
+Matricula* MatriculaContainer::remove(Student *student, TrainingPlan *trainingPlan) {
 
     for (auto it = matriculas.begin(); it != matriculas.end(); ++it) {
 
-        if ((*it)->hasStudentAndTrainingPlan(studentId, trainingPlanId)) {
+        if ((*it)->hasStudentAndTrainingPlan(student, trainingPlan)) {
 
             Matricula* matricula = *it;
 
@@ -144,8 +144,8 @@ Matricula* MatriculaContainer::remove(int studentId, int trainingPlanId) {
     }
 
     throw NotFoundException(
-        "Student: " + to_string(studentId) +
+        "Student: " + to_string(student->getId()) +
         " Training Plan: " +
-        to_string(trainingPlanId)
+        to_string(trainingPlan->getId())
     );
 }

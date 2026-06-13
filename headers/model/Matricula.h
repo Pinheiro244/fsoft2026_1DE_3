@@ -43,9 +43,9 @@ public:
     bool operator==(const Matricula& other) const;
     bool operator==(int id) const;
 
-    bool hasStudent(int studentId) const;
-    bool hasTrainingPlan(int trainingPlanId) const;
-    bool hasStudentAndTrainingPlan(int studentId, int trainingPlanId) const;
+    bool hasStudent(Student *student) const;
+    bool hasTrainingPlan(TrainingPlan *trainingPlan) const;
+    bool hasStudentAndTrainingPlan(Student *student, TrainingPlan *trainingPlan) const;
 };
 
 #endif

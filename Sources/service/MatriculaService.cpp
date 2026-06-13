@@ -34,9 +34,9 @@ void MatriculaService::getAll(list<MatriculaOUTDTO>& dtos) {
 
     School *model = this->repo->getModel();
 
-    MatriculaContainer& container = model->getMatriculaContainer();
+    MatriculaContainer& matriculaContainer = model->getMatriculaContainer();
 
-    list<Matricula*> matriculas = container.getAll();
+    list<Matricula*> matriculas = matriculaContainer.getAll();
 
     MatriculaMapper::listModel2listDTO(matriculas, dtos);
 }
@@ -49,9 +49,14 @@ void MatriculaService::get(
 
     School *model = this->repo->getModel();
 
-    MatriculaContainer& container = model->getMatriculaContainer();
+    StudentContainer& studentContainer = model->getStudentContainer();
+    TrainingPlanContainer& trainingPlanContainer = model->getTrainingPlanContainer();
+    MatriculaContainer& matriculaContainer = model->getMatriculaContainer();
 
-    Matricula *matricula = container.get(studentId, trainingPlanId);
+    Student *student = studentContainer.get(studentId);
+    TrainingPlan *trainingPlan = trainingPlanContainer.get(trainingPlanId);
+
+    Matricula *matricula = matriculaContainer.get(student, trainingPlan);
 
     MatriculaMapper::model2DTO(matricula, dto);
 }
@@ -64,9 +69,14 @@ void MatriculaService::remove(
 
     School *model = this->repo->getModel();
 
-    MatriculaContainer& container = model->getMatriculaContainer();
+    StudentContainer& studentContainer = model->getStudentContainer();
+    TrainingPlanContainer& trainingPlanContainer = model->getTrainingPlanContainer();
+    MatriculaContainer& matriculaContainer = model->getMatriculaContainer();
 
-    Matricula *matricula = container.remove(studentId, trainingPlanId);
+    Student *student = studentContainer.get(studentId);
+    TrainingPlan *trainingPlan = trainingPlanContainer.get(trainingPlanId);
+
+    Matricula *matricula = matriculaContainer.remove(student, trainingPlan);
 
     MatriculaMapper::model2DTO(matricula, dto);
 
@@ -85,7 +95,7 @@ void MatriculaService::get(
 
     Student *student = studentContainer.get(studentId);
 
-    list<Matricula*> matriculas = matriculaContainer.getByStudent(studentId);
+    list<Matricula*> matriculas = matriculaContainer.getByStudent(student);
 
     MatriculaMapper::model2DTO(student, matriculas, dto);
 }
@@ -102,7 +112,7 @@ void MatriculaService::getTrainingPlanStudents(
 
     TrainingPlan *trainingPlan = trainingPlanContainer.get(trainingPlanId);
 
-    list<Matricula*> matriculas = matriculaContainer.getByTrainingPlan(trainingPlanId);
+    list<Matricula*> matriculas = matriculaContainer.getByTrainingPlan(trainingPlan);
 
     MatriculaMapper::model2DTO(trainingPlan, matriculas, dto);
 }

@@ -49,14 +49,14 @@ void TrainingPlanService::get(int id, TrainingPlanOUTDTO& dto) {
 
 void TrainingPlanService::remove(int id, TrainingPlanOUTDTO& dto) {
 
-    School *model = this->repo->getModel();
+    School* model = this->repo->getModel();
 
     TrainingPlanContainer& trainingPlanContainer = model->getTrainingPlanContainer();
     MatriculaContainer& matriculaContainer = model->getMatriculaContainer();
 
-    TrainingPlan *trainingPlan = trainingPlanContainer.get(id);
+    TrainingPlan* trainingPlan = trainingPlanContainer.get(id);
 
-    list<Matricula*> matriculas = matriculaContainer.getByTrainingPlan(id);
+    list<Matricula*> matriculas = matriculaContainer.getByTrainingPlan(trainingPlan);
 
     if (matriculas.empty()) {
 

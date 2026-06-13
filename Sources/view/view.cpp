@@ -50,11 +50,10 @@ int View::menuMatriculas() {
     cout << endl;
     cout << "===== MATRICULAS =====" << endl;
     cout << "1 - Register matricula" << endl;
-    cout << "2 - Consult matricula" << endl;
+    cout << "2 - Consult matriculas of student" << endl;
     cout << "3 - Remove matricula" << endl;
     cout << "4 - List matriculas" << endl;
-    cout << "5 - Consult training plans of student" << endl;
-    cout << "6 - Consult students of training plan" << endl;
+    cout << "5 - Consult students of training plan" << endl;
     cout << "0 - Back" << endl;
 
     return Utils::getNumber("Option");

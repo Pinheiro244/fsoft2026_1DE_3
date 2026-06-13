@@ -77,14 +77,14 @@ bool Matricula::operator==(int id) const {
     return this->id == id;
 }
 
-bool Matricula::hasStudent(int studentId) const {
-    return this->student->getId() == studentId;
+bool Matricula::hasStudent(Student *student) const {
+    return this->student == student;
 }
 
-bool Matricula::hasTrainingPlan(int trainingPlanId) const {
-    return this->trainingPlan->getId() == trainingPlanId;
+bool Matricula::hasTrainingPlan(TrainingPlan *trainingPlan) const {
+    return this->trainingPlan == trainingPlan;
 }
 
-bool Matricula::hasStudentAndTrainingPlan(int studentId, int trainingPlanId) const {
-    return hasStudent(studentId) && hasTrainingPlan(trainingPlanId);
+bool Matricula::hasStudentAndTrainingPlan(Student *student, TrainingPlan *trainingPlan) const {
+    return hasStudent(student) && hasTrainingPlan(trainingPlan);
 }

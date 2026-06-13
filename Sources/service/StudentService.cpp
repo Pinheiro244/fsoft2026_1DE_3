@@ -49,14 +49,14 @@ void StudentService::get(int id, StudentOUTDTO& dto) {
 
 void StudentService::remove(int id, StudentOUTDTO& dto) {
 
-    School *model = this->repo->getModel();
+    School* model = this->repo->getModel();
 
     StudentContainer& studentContainer = model->getStudentContainer();
     MatriculaContainer& matriculaContainer = model->getMatriculaContainer();
 
-    Student *student = studentContainer.get(id);
+    Student* student = studentContainer.get(id);
 
-    list<Matricula*> matriculas = matriculaContainer.getByStudent(id);
+    list<Matricula*> matriculas = matriculaContainer.getByStudent(student);
 
     if (matriculas.empty()) {
 

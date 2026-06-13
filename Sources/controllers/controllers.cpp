@@ -335,14 +335,13 @@ void Controller::runMatriculas() {
 
             case 2: {
                 try {
-                    MatriculaOUTDTO matricula;
+                    MatriculaStudentPlansOUTDTO dto;
 
                     int studentId = Utils::getNumber("Enter Student Id");
-                    int trainingPlanId = Utils::getNumber("Enter Training Plan Id");
 
-                    this->matriculaService->get(studentId, trainingPlanId, matricula);
+                    this->matriculaService->get(studentId, dto);
 
-                    this->matriculaView.printMatricula(&matricula);
+                    this->matriculaView.printMatricula(&dto);
 
                 } catch (NotFoundException& e) {
                     string str(e.what());
@@ -387,27 +386,6 @@ void Controller::runMatriculas() {
                 break;
 
             case 5: {
-                try {
-                    MatriculaStudentPlansOUTDTO dto;
-
-                    int studentId = Utils::getNumber("Enter Student Id");
-
-                    this->matriculaService->get(studentId, dto);
-
-                    this->matriculaView.printMatricula(&dto);
-
-                } catch (NotFoundException& e) {
-                    string str(e.what());
-                    this->view.printMessage(&str);
-
-                } catch (exception& e) {
-                    string str("Unknown exception");
-                    this->view.printMessage(&str);
-                }
-            }
-                break;
-
-            case 6: {
                 try {
                     MatriculaTrainingPlanStudentsOUTDTO dto;
 
